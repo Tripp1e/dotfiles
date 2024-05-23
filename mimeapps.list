@@ -1,0 +1,7 @@
+[Default Applications]
+text/html=nvim.desktop
+text/css=org.gnome.TextEditor.desktop
+
+[Added Associations]
+text/html=nvim.desktop;
+text/css=org.gnome.TextEditor.desktop;
