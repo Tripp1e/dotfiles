@@ -1,0 +1,284 @@
+/* ACCENT COLORS */
+@define-color accent_color #a7c080; 
+@define-color accent_bg_color #6e8944;
+@define-color accent_fg_color #fdf6e3;
+
+/* DESTRUCTIVE, ERROR, SUCCESS AND WARNING COLORS */
+@define-color destructive_color #e67e80;
+@define-color destructive_bg_color #d93b3e;
+@define-color destructive_fg_color #fdf6e3;
+
+@define-color success_color #a7c080;
+@define-color success_bg_color #6e8944;
+@define-color success_fg_color #fdf6e3;
+
+@define-color warning_color #dbbc7f;
+@define-color warning_bg_color #ad8331;
+@define-color warning_fg_color rgba(35, 42, 46, 0.85); 
+
+@define-color error_color #e67e80;
+@define-color error_bg_color #d93b3e;
+@define-color error_fg_color #fdf6e3;
+
+/* WINDOW COLORS AND VIEW COLORS */
+@define-color window_bg_color #313a40;
+@define-color window_fg_color #fdf6e3; 
+@define-color view_bg_color #2c3439; 
+@define-color view_fg_color #fdf6e3; 
+
+/* HEADERBAR COLORS */
+@define-color headerbar_bg_color #394449;
+@define-color headerbar_fg_color #fdf6e3; 
+@define-color headerbar_border_color #fdf6e3;  
+@define-color headerbar_backdrop_color #313a40;
+@define-color headerbar_shade_color rgba(35, 42, 46, 0.40);
+@define-color headerbar_darker_shade_color rgba(35, 42, 46, 0.95);
+
+/* SIDEBAR COLORS */
+@define-color sidebar_bg_color #394449; 
+@define-color sidebar_fg_color #fdf6e3;
+@define-color sidebar_backdrop_color #343f44;
+@define-color sidebar_shade_color rgba(35, 42, 46, 0.95);
+
+/* SECONDARY SIDEBAR COLORS */
+@define-color secondary_sidebar_bg_color #343f44;
+@define-color secondary_sidebar_fg_color #fdf6e3; 
+@define-color secondary_sidebar_backdrop_color #333d42;
+@define-color secondary_sidebar_shade_color rgba(35, 42, 46, 0.95); 
+
+/* CARD COLORS */
+@define-color card_bg_color #404c51; 
+@define-color card_fg_color #fdf6e3;
+@define-color card_shade_color rgba(35, 42, 46, 0.40);
+
+/* THUMBNAIL COLORS */
+@define-color thumbnail_bg_color #404c51; 
+@define-color thumbnail_fg_color #fdf6e3;
+
+/* DIALOG COLORS */
+@define-color dialog_bg_color #404c51; 
+@define-color dialog_fg_color #fdf6e3;
+
+/* POPOVER COLORS */
+@define-color popover_bg_color #404c51; 
+@define-color popover_fg_color #fdf6e3;
+@define-color popover_shade_color rgba(35, 42, 46, 0.40);  
+
+/* MISCELLANEOUS COLORS */
+@define-color shade_color rgba(35, 42, 46, 0.40);
+@define-color scrollbar_outline_color rgba(35, 42, 46, 0.60);
+
+/* PALETTE */   
+@define-color blue_1 #b9dad5;
+@define-color blue_2 #7fbbb3;
+@define-color blue_3 #58a69c;
+@define-color blue_4 #4e9289;
+@define-color blue_5 #3e756e;
+
+@define-color green_1 #b8cc99;
+@define-color green_2 #a7c080;
+@define-color green_3 #97b569;
+@define-color green_4 #88a954;
+@define-color green_5 #6e8944;
+
+@define-color yellow_1 #e6d0a5;
+@define-color yellow_2 #dbbc7f;
+@define-color yellow_3 #d2ab5f;
+@define-color yellow_4 #c99a3e;
+@define-color yellow_5 #ad8331;
+
+@define-color orange_1 #f0c1ac;
+@define-color orange_2 #ebac90;
+@define-color orange_3 #e69875;
+@define-color orange_4 #e2885f;
+@define-color orange_5 #de7749;
+
+@define-color red_1 #eb9799;
+@define-color red_2 #e67e80;
+@define-color red_3 #e06063;
+@define-color red_4 #dd5154;
+@define-color red_5 #d93b3e;
+
+@define-color purple_1 #e2b7cc;
+@define-color purple_2 #d699b6;
+@define-color purple_3 #ce85a8;
+@define-color purple_4 #c6729a;
+@define-color purple_5 #bc5887;
+
+@define-color brown_1 #d8bca6;
+@define-color brown_2 #c79f80;
+@define-color brown_3 #bf926f;
+@define-color brown_4 #b38663;
+@define-color brown_5 #a57149;
+
+@define-color light_1 #fdf6e3;
+@define-color light_2 #f4f0d9;
+@define-color light_3 #efebd4;
+@define-color light_4 #e6e2cc;
+@define-color light_5 #e0dcc7;
+
+@define-color dark_1 #4f585e;
+@define-color dark_2 #475258;
+@define-color dark_3 #3d484d;
+@define-color dark_4 #343f44;
+@define-color dark_5 #2c3439;
+
+
+/*----------------------------------------------------*/
+/*--------------- COLORED WINDOW BUTTONS -------------*/
+/*----------------------------------------------------*/
+
+button.titlebutton { /* GTK3 */
+  color: transparent;
+  min-width: 8px;
+  min-height: 8px;
+}
+button.titlebutton:backdrop {
+  opacity: 0.5;
+}
+
+windowcontrols > button { /* GTK4 */
+  color: transparent;
+  min-width: 2px;
+  min-height: 2px;
+  -gtk-icon-size: 14px;
+  border-radius: 100%;
+  padding: 0;
+  margin: 4px 4px;
+}
+
+windowcontrols { 
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+windowcontrols > button > image {
+  padding: 0;
+}
+
+button.titlebutton.close,
+windowcontrols > button.close {
+  background-color: #e67e80;   /* Override the close button color here */
+  border: 1px solid #d47375;   /* Add a darker border color here */
+}
+
+button.titlebutton.close:hover,
+windowcontrols > button.close:hover {
+  color: #3f2936;   /* Override the close button color on hover here. This should be a very dark shade of your close button color */
+  opacity: 0.8;
+}
+
+button.titlebutton.maximize,
+windowcontrols > button.maximize {
+  background-color: #a7c080;   /* Override the maximize button color here */
+  border: 1px solid #a0b87a;   /* Add a darker border color here */
+}
+
+button.titlebutton.maximize:hover,
+windowcontrols > button.maximize:hover {
+  color: #303d36;   /* Override the maximize button color on hover here. This should be a very dark shade of your maximize button color */
+  opacity: 0.8;
+}
+
+button.titlebutton.minimize,
+windowcontrols > button.minimize {
+  background-color: #dbbc7f;   /* Override the minimize button color here */
+  border: 1px solid #ccae73;   /* Add a darker border color here */
+}
+
+button.titlebutton.minimize:hover,
+windowcontrols > button.minimize:hover {
+  color: #35342c;   /* Override the minimize button color on hover here. This should be a very dark shade of your minimize button color */
+  opacity: 0.8;
+}
+
+
+/*------------------------------------------------*/
+/*---------------- WINDOW BORDERS ----------------*/
+/*------------------------------------------------*/
+
+/**************** Borrowed from Graphite theme ****************/
+
+/* When using this code, you might want to change the sidebar_shade_color and secondary_sidebar_shade_color to the same color as window border color for active windows */
+
+/* Additionally, you can also change the color of the column separators or completey hide them for a better look */
+
+/**********************
+ * Window Decorations *
+ **********************/
+ 
+window {
+  transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
+  border-radius: 12px;
+  box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
+    0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
+    0 0 0 1px #232a2e, 0 0 16px transparent;  /* change window border color for active windows here */
+}
+
+window.csd {
+  border-radius: 12px;
+}
+
+window:backdrop {
+  box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
+    0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
+    0 0 0 1px #2a3237, 0 0 16px transparent;  /* change window border color for backdrop windows here */
+} 
+
+window.popup {
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+window.dialog.message {
+  border-radius: 12px;
+}
+
+window.solid-csd {
+  margin: 0;
+  padding: 2px;
+  border-radius: 0;
+  background-color: #232a2e;
+  border: 2px solid #fdf6e3;
+}
+
+window.solid-csd:backdrop {
+  background-color: #232a2e;
+}
+
+window.maximized,
+window.fullscreen,
+window.tiled,
+window.tiled-top,
+window.tiled-right,
+window.tiled-bottom,
+window.tiled-left {
+  border-radius: 0;
+  outline-width: 0;
+}
+
+windowcontrols {
+  border-spacing: 6px;
+}
+
+windowcontrols.start:not(.empty):dir(ltr),
+windowcontrols.end:not(.empty):dir(rtl) {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+windowcontrols.start:not(.empty):dir(rtl),
+windowcontrols.end:not(.empty):dir(ltr) {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+ /*********************************
+ * Change the color of seperators *
+ **********************************/
+ 
+ /* Hide the separators completely using 0% opacity 
+ separator:not(.spacer) {
+  background-color: rgba(30, 35, 38, 0.0);
+} */ 
+
