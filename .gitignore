@@ -15,6 +15,7 @@ librewolf/default
 !librewolf/default/prefs.js
 !librewolf/default/user.js
 
+filezilla/
 dconf/
 discord/
 gnome-session/
