@@ -1,0 +1,43 @@
+[2024-05-24 12:24:12.869][verbose] Tunnel state: disconnected
+[2024-05-24 12:24:12.869][verbose] Initial: Wrong content height: 593, expected 568
+[2024-05-24 12:24:41.393][info] Logging in
+[2024-05-24 12:24:45.846][info] Logging in
+[2024-05-24 12:24:46.420][verbose] Map canvas scale factor: 1, using: 1
+[2024-05-24 12:25:00.680][verbose] Tunnel state: connecting
+[2024-05-24 12:25:01.039][verbose] Tunnel state: connecting
+[2024-05-24 12:25:09.429][verbose] Tunnel state: connecting
+[2024-05-24 12:25:09.452][verbose] Tunnel state: connecting
+[2024-05-24 12:25:10.977][verbose] Tunnel state: connected
+[2024-05-24 12:25:11.111][verbose] Tunnel state: connected
+[2024-05-24 12:25:42.936][verbose] Tunnel state: connecting
+[2024-05-24 12:25:43.249][verbose] Tunnel state: connecting
+[2024-05-24 12:25:44.719][verbose] Tunnel state: connected
+[2024-05-24 12:25:44.859][verbose] Tunnel state: connected
+[2024-05-24 12:25:54.674][verbose] Tunnel state: connecting
+[2024-05-24 12:25:54.959][verbose] Tunnel state: connecting
+[2024-05-24 12:25:56.450][verbose] Tunnel state: connected
+[2024-05-24 12:25:56.545][verbose] Tunnel state: connected
+[2024-05-24 12:27:03.265][verbose] Map canvas scale factor: 1, using: 1
+[2024-05-24 12:27:15.245][verbose] Map canvas scale factor: 1, using: 1
+[2024-05-24 13:47:30.523][verbose] Tunnel state: error
+[2024-05-24 13:47:30.691][verbose] Tunnel state: error
+[2024-05-24 13:48:15.349][verbose] Map canvas scale factor: 1, using: 1
+[2024-05-24 13:48:15.351][verbose] Tunnel state: connecting
+[2024-05-24 13:48:15.565][verbose] Tunnel state: connecting
+[2024-05-24 13:48:15.566][verbose] Tunnel state: connected
+[2024-05-24 13:48:15.566][verbose] Tunnel state: connected
+[2024-05-24 13:48:15.566][verbose] Tunnel state: connected
+[2024-05-24 13:48:15.566][verbose] Tunnel state: connected
+[2024-05-24 15:16:20.613][verbose] Tunnel state: error
+[2024-05-24 15:16:20.762][verbose] Tunnel state: error
+[2024-05-24 15:17:05.446][verbose] Map canvas scale factor: 1, using: 1
+[2024-05-24 15:17:05.485][verbose] Tunnel state: connecting
+[2024-05-24 15:17:08.569][verbose] Tunnel state: connecting
+[2024-05-24 15:17:08.573][verbose] Tunnel state: connected
+[2024-05-24 15:17:08.576][verbose] Tunnel state: connected
+[2024-05-24 15:17:08.579][verbose] Tunnel state: connected
+[2024-05-24 15:17:08.583][verbose] Tunnel state: connected
+[2024-05-24 15:22:25.011][verbose] Tunnel state: disconnecting
+[2024-05-24 15:22:25.137][verbose] Tunnel state: disconnecting
+[2024-05-24 15:22:25.355][verbose] Tunnel state: disconnected
+[2024-05-24 15:22:25.420][verbose] Tunnel state: disconnected

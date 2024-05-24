@@ -1,0 +1,50 @@
+[2024-05-24 12:24:11.619][verbose] Chromium sandbox is enabled
+[2024-05-24 12:24:11.620][info] Running version 2024.3
+[2024-05-24 12:24:11.620][verbose] Creating gui-settings file and writing the default settings to it
+[2024-05-24 12:24:11.675][info] Detected locale: en-US
+[2024-05-24 12:24:11.765][info] Connected to the daemon
+[2024-05-24 12:24:11.864][info] Skip autoconnect because account token is not set
+[2024-05-24 12:24:12.846][error] Failed to check autostart file: ENOENT: no such file or directory, access '/home/tripple/.config/autostart/mullvad-vpn.desktop'
+[2024-05-24 12:24:41.452][error] Failed to login: too-many-devices
+[2024-05-24 13:24:11.774][verbose] GRPC Channel connectivity state changed to 2
+[2024-05-24 13:33:39.451][info] Suspend event received, disconnecting from daemon
+[2024-05-24 13:33:39.452][verbose] GRPC Channel connectivity state changed to 4
+[2024-05-24 13:33:39.453][info] Disconnected from the daemon
+[2024-05-24 13:33:39.453][info] Suspend event received, disconnecting from daemon
+[2024-05-24 13:33:39.453][info] Disconnected from the daemon
+[2024-05-24 13:47:30.337][info] Resume event received, connecting to daemon
+[2024-05-24 13:47:30.339][info] Resume event received, connecting to daemon
+[2024-05-24 13:47:30.340][info] Connected to the daemon
+[2024-05-24 13:47:30.340][info] Connected to the daemon
+[2024-05-24 13:47:30.696][warning] Failed to update device info: 14 UNAVAILABLE: Cannot reach the API
+[2024-05-24 13:47:30.696][warning] Failed to fetch account data. Retrying in 8000 ms
+[2024-05-24 13:47:30.696][warning] Failed to update device info: 14 UNAVAILABLE: Cannot reach the API
+[2024-05-24 13:48:15.353][error] Child process of type GPU exited with exit code 512 due to abnormal-exit
+[2024-05-24 14:47:31.004][verbose] GRPC Channel connectivity state changed to 2
+[2024-05-24 14:47:31.004][verbose] GRPC Channel connectivity state changed to 2
+[2024-05-24 15:08:14.304][info] Suspend event received, disconnecting from daemon
+[2024-05-24 15:08:14.304][verbose] GRPC Channel connectivity state changed to 1
+[2024-05-24 15:08:14.304][verbose] GRPC Channel connectivity state changed to 4
+[2024-05-24 15:08:14.304][verbose] GRPC Channel connectivity state changed to 1
+[2024-05-24 15:08:14.305][info] Disconnected from the daemon
+[2024-05-24 15:08:14.306][info] Suspend event received, disconnecting from daemon
+[2024-05-24 15:08:14.306][info] Disconnected from the daemon
+[2024-05-24 15:16:20.281][info] Resume event received, connecting to daemon
+[2024-05-24 15:16:20.281][info] Resume event received, connecting to daemon
+[2024-05-24 15:16:20.285][info] Connected to the daemon
+[2024-05-24 15:16:20.285][info] Connected to the daemon
+[2024-05-24 15:16:20.768][warning] Failed to update device info: 14 UNAVAILABLE: Cannot reach the API
+[2024-05-24 15:16:20.768][warning] Failed to fetch account data. Retrying in 8000 ms
+[2024-05-24 15:16:20.768][warning] Failed to update device info: 14 UNAVAILABLE: Cannot reach the API
+[2024-05-24 15:17:05.613][error] Child process of type GPU exited with exit code 512 due to abnormal-exit
+[2024-05-24 15:22:25.423][verbose] GRPC Channel connectivity state changed to 1
+[2024-05-24 15:22:25.423][verbose] GRPC Channel connectivity state changed to 0
+[2024-05-24 15:22:25.446][info] Disconnected from the daemon
+[2024-05-24 15:22:25.446][verbose] GRPC Channel connectivity state changed to 1
+[2024-05-24 15:22:25.470][error] Cannot deserialize the daemon event: 1 CANCELLED: Call cancelled
+[2024-05-24 15:22:35.447][error] Failed to connect to daemon: Failed to connect before the deadline
+[2024-05-24 15:22:35.449][error] Failed to reconnect - Error: Failed to connect before the deadline
+[2024-05-24 15:22:48.456][error] Failed to connect to daemon: Failed to connect before the deadline
+[2024-05-24 15:22:48.457][error] Failed to reconnect - Error: Failed to connect before the deadline
+[2024-05-24 15:23:01.460][error] Failed to connect to daemon: Failed to connect before the deadline
+[2024-05-24 15:23:01.461][error] Failed to reconnect - Error: Failed to connect before the deadline
