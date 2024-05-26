@@ -1,6 +1,0 @@
-[2024-05-24 15:24:15.504][verbose] Chromium sandbox is enabled
-[2024-05-24 15:24:15.505][info] Running version 2024.3
-[2024-05-24 15:24:15.633][info] Detected locale: en-US
-[2024-05-24 15:24:15.689][info] Connected to the daemon
-[2024-05-24 15:24:15.859][info] Autoconnect the tunnel
-[2024-05-24 16:24:15.700][verbose] GRPC Channel connectivity state changed to 2
