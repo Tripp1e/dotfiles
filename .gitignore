@@ -1,0 +1,19 @@
+/*
+
+!gnome/
+!gtk-*/
+!presets/
+!spicetify/
+
+librewolf/*
+!librewolf/installs.ini
+!librewolf/profiles.ini
+!librewolf/default/user.js
+!librewolf/default/prefs.js
+!librewolf/native-messaging-hosts/
+
+gnome/icons/Papirus - Dark/
+spicetify/Extracted/*
+
+!README.md
+!.gitignore
